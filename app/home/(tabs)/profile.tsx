@@ -11,7 +11,7 @@ export default function Profile() {
 
   return (
     <View style={styles.container}>
-      <Text>Profile Setting</Text>
+      <Text>Profile</Text>
     </View>
   );
 }

@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Language() {
+export default function Top() {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
@@ -11,7 +11,7 @@ export default function Language() {
 
   return (
     <View style={styles.container}>
-      <Text>Language Setting</Text>
+      <Text>Home</Text>
     </View>
   );
 }

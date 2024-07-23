@@ -1,7 +1,6 @@
-import { router } from "expo-router";
-import { Button, StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function Settings() {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
@@ -12,7 +11,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Button title="Login" onPress={() => router.push("/home/top")} />
+      <Text>Settings</Text>
     </View>
   );
 }
