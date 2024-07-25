@@ -12,7 +12,15 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Button title="Login" onPress={() => router.push("/home/top")} />
+      <Button
+        title="Async Storage"
+        onPress={() => router.push("/async-storage")}
+      />
+      <Button
+        title="Secure Store"
+        onPress={() => router.push("/secure-store")}
+      />
+      <Button title="SQLite" onPress={() => router.push("/sqlite")} />
     </View>
   );
 }
